@@ -27,11 +27,11 @@ public class OrdenacaoQuickSort<T extends Comparable> extends OrdenacaoAbstract<
         while (true) {
             do {
                 a++;
-            } while ((a <= fim) && (getInfo()[a].compareTo(pivo) < 0));
+            } while (a <= fim && getInfo()[a].compareTo(pivo) < 0);
 
             do {
                 b--;
-            } while ((b >= inicio) && (getInfo()[b].compareTo(pivo) > 0));
+            } while (b >= inicio && getInfo()[b].compareTo(pivo) > 0);
 
             if (a >= b) {
                 break;
