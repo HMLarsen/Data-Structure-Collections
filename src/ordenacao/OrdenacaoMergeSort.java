@@ -12,10 +12,8 @@ public class OrdenacaoMergeSort<T extends Comparable> extends OrdenacaoAbstract<
     }
 
     private void mergeSort(int inicio, int fim) {
-        int meio;
-
         if (inicio < fim) {
-            meio = (inicio + fim) / 2;
+            int meio = (inicio + fim) / 2;
             mergeSort(inicio, meio);
             mergeSort(meio + 1, fim);
             merge(inicio, fim, meio);
