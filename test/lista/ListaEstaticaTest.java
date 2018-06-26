@@ -1,6 +1,6 @@
 package lista;
 
-import lista.ex3.ListaEstatica;
+import lista.simples.ListaEstatica;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

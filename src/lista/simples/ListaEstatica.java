@@ -1,4 +1,4 @@
-package lista.ex3;
+package lista.simples;
 
 /**
  *
