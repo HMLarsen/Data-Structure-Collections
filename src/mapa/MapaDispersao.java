@@ -37,7 +37,7 @@ public class MapaDispersao<T> {
         int indice = calcularHash(chave);
 
         if (info[indice] != null) {
-            NoMapa<T> noMapa = new NoMapa();
+            NoMapa<T> noMapa = new NoMapa<>();
             noMapa.setChave(chave);
             info[indice].retirar(noMapa);
         }
